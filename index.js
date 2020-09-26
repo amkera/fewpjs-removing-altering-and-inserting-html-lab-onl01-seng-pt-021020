@@ -4,6 +4,6 @@ const testVar = "hi"
 document.querySelector("main").remove();
 const newHeader = document.createElement("h1");
 newHeader.id = "victory";
-newHeader.innerText = "I am the champion"
+newHeader.innerText = "I is the champion"
 
 /* Create your new element here and assign it to newHeader */
