@@ -1,7 +1,10 @@
-// Write your code here!
+const testVar = "hi"
 
-//Make sure you remove the <main> with id 'main': expected <main id="main"></main> to not exist
+/* Enter the code to remove the node element here */
+document.querySelector("main#main").remove();
 
-const main = document.createElement("main")
-
-//has a 'newHeader' variable that points to node 'h1#victory' with "YOUR-NAME is the champion" inside
+/* Create your new element here and assign it to newHeader */
+const newHeader = document.createElement("h1");
+newHeader.id = "victory"
+newHeader.innerHTML = "Flatiron School is the champion!";
+newHeader.className = "victory";
